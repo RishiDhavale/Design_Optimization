@@ -1,6 +1,6 @@
 # Design_Optimization
 <p align="center">
-  <img width="460" height="300" src="https://picsum.photos/460/300">
+  <img width="460" height="300" src="<img width="460" height="300" src="https://picsum.photos/460/300">">
 </p>
 
 MAE598/494: Design Optimization covers mathematical modeling, optimization theory, and computational methods for analytical and simulation-based optimal engineering design. Key areas include:
