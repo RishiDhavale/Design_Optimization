@@ -10,3 +10,7 @@ MAE598/494: Design Optimization covers mathematical modeling, optimization theor
 - Constrained Optimization: Focuses on reduced gradient, KKT conditions, geometry sensitivity analysis, quasi-Newton methods, active set strategy, and Sequential Quadratic Programming.
 - Optimal Control: Discusses Pontryagin’s Maximum Principle, Markov decision process, Bellman Equation, and practical applications.
 
+## Homewrok 1
+<p align="center">
+  <img width="460" height="300" src="https://drive.google.com/file/d/1DOBrCxiZxIbtl3tbd1dm3FCmzNlBgXNM/view?usp=sharing">
+</p>
