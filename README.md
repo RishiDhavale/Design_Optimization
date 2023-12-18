@@ -1,6 +1,6 @@
 # Design_Optimization
 
-<div align=”center”> ![image](https://github.com/RishiDhavale/Design_Optimization/assets/117399836/e4441d6f-36ea-4211-ae56-1666fd597947) </div>
+<div align=”center”>![image](https://github.com/RishiDhavale/Design_Optimization/assets/117399836/e4441d6f-36ea-4211-ae56-1666fd597947)</div>
 
 MAE598/494: Design Optimization covers mathematical modeling, optimization theory, and computational methods for analytical and simulation-based optimal engineering design. Key areas include:
 
