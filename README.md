@@ -42,3 +42,6 @@ Homework 5 Problem 1, uses PyTorch to estimate parameters A12 and A21 in a vapor
 
 ### Problem 2
 ![HW5_2](https://github.com/RishiDhavale/Design_Optimization/assets/117399836/fed46526-ff93-4292-8389-bb0131206988)
+
+
+Homework 5 Problem 2, implements Bayesian Optimization to solve a given optimization problem with the objective function defined in a complex nonlinear form. The optimization is constrained within specified bounds for x1 and x2. Bayesian Optimization, a technique effective for optimizing complex functions without a closed-form expression, is carried out using a Gaussian Process Regressor from the Scikit-learn library. The script defines the objective function and employs an improvement function to guide the optimization process, using the Armijo line search method. The process iterates over a set number of iterations, updating the parameters x1 and x2 to minimize the objective function. The results, including the minimum objective function value and the corresponding x1 and x2 values, are printed out, showcasing the effectiveness of Bayesian Optimization in solving such complex problems.
