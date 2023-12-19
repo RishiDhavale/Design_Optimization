@@ -37,5 +37,8 @@ Homework 3 is an implementation of the Generalized Reduced Gradient (GRG) algori
 ## Homework 5
 ### Problem 1
 ![HW5_!](https://github.com/RishiDhavale/Design_Optimization/assets/117399836/d89d36fe-2856-473b-ab88-1cbc91664c44)
+
+Homework 5 Problem 1, uses PyTorch to estimate parameters A12 and A21 in a vapor-liquid equilibrium problem involving a water-1,4 dioxane system. The problem is approached as a nonlinear least squares optimization, solved using gradient descent. The Antoine equation is utilized to calculate saturation pressures for both components at 20°C, and the script iteratively adjusts A12 and A21 to minimize the difference between predicted and actual pressures of the mixture at different compositions (x1). After optimization, the estimated values of A12 and A21 are displayed, along with the final loss indicating the fit quality. The results, both predicted and actual pressures, are then visually compared in a plot, demonstrating the model's performance against the provided data.
+
 ### Problem 2
 ![HW5_2](https://github.com/RishiDhavale/Design_Optimization/assets/117399836/fed46526-ff93-4292-8389-bb0131206988)
