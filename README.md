@@ -26,13 +26,12 @@ Homework 2, addresses a two-part optimization challenge in 3D space. Initially, 
 ### Problem 
 ![Homework3](https://github.com/RishiDhavale/Design_Optimization/assets/117399836/50456c52-c337-4d9d-8e6b-5b9b37307026)
 
-
 Homework 3 is an implementation of the Generalized Reduced Gradient (GRG) algorithm in PyTorch, designed to solve given optimization problem with constraints. The objective function to be minimized is defined as the sum of the squares of three variables. The constraints include two functions, h1 and h2, which are set to equal zero. The GRG algorithm iteratively updates the variables to find the minimum of the objective function while satisfying the constraints. The final output of the code includes the minimized objective function value and the values of the variables that satisfy the constraints. This implementation showcases the use of PyTorch for differentiable programming in optimization problems.
 
 ## Homework 4
 ### Problem 
 ![Homework 4](https://github.com/RishiDhavale/Design_Optimization/assets/117399836/64a8f20a-b695-45b9-9c38-8c310f6f96ba)
-
+The provided Python code is an implementation of the Sequential Quadratic Programming (SQP) method to solve a constrained optimization problem. The objective function to be minimized is the sum of the square of the first variable and the square of the difference between the second variable and 3. Two inequality constraints are also defined. The code uses the BFGS method for approximating the Hessian of the Lagrangian and employs the Armijo Line Search technique for determining the step size. The algorithm starts with an initial guess of (1, 1) and iteratively updates the solution until the norm of the Lagrangian gradient falls below a specified threshold. The optimization process is visualized using a contour plot, and the final solution is displayed.
 
 ## Homework 5
 ### Problem 1
