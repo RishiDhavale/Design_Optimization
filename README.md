@@ -42,3 +42,37 @@ Homework 5 Problem 1, uses PyTorch to estimate parameters A12 and A21 in a vapor
 ### Problem 2
 ![HW5_2](https://github.com/RishiDhavale/Design_Optimization/assets/117399836/fed46526-ff93-4292-8389-bb0131206988)
 Homework 5 Problem 2, implements Bayesian Optimization to solve a given optimization problem with the objective function defined in a complex nonlinear form. The optimization is constrained within specified bounds for x1 and x2. Bayesian Optimization, a technique effective for optimizing complex functions without a closed-form expression, is carried out using a Gaussian Process Regressor from the Scikit-learn library. The script defines the objective function and employs an improvement function to guide the optimization process, using the Armijo line search method. The process iterates over a set number of iterations, updating the parameters x1 and x2 to minimize the objective function. The results, including the minimum objective function value and the corresponding x1 and x2 values, are printed out, showcasing the effectiveness of Bayesian Optimization in solving such complex problems.
+
+### Project 
+
+Objective : - 
+The project focuses on implementing gradient-based algorithms using the PyTorch framework to control an inverted pendulum system. The key goal is to develop and fine-tune algorithms that can effectively bring the pendulum at a specified angle/position.
+
+![Inverted Pendulum](https://github.com/RishiDhavale/Design_Optimization/assets/117399836/0046cea6-2d5b-46ea-b141-c73077337fad)
+
+The illustrated system features an inverted pendulum attached to a motorized cart; a classic
+example often found in control systems. This system is inherently unstable, as the
+pendulum will tip over without intervention. Its appeal lies in both its instability and the
+nonlinear dynamics it exhibits. The primary goal of the control system is to stabilize the
+inverted pendulum by applying force to the cart to maintain balance.
+
+This particular example considers a two-dimensional scenario, restricting the pendulum's
+movement to the vertical plane as depicted in the accompanying figure. In this system, the
+control input involves the horizontal force, denoted as u, which propels the cart. The state
+of the system is defined by displacement along X axis, velocity along X axis, angle of
+pendulum and angular velocity of pendulum.
+
+System constants
+
+Mass of Cart = 6 kg
+
+Mass of pendulum = 2 kg
+
+Length of Pendulum = 1 m
+
+Acceleration due to gravity = 9.81 m/s^2
+
+Time step = 0.1
+
+Result : -
+![inverted_pendulum_animation_v9 (2)](https://github.com/RishiDhavale/Design_Optimization/assets/117399836/9563d68f-09cb-4a7d-a34a-91549502d86b)
